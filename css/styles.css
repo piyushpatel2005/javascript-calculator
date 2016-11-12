@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  font-family: verdana, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.container {
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+  background: #ffdec6;
+  color: #777;
+  background: linear-gradient(-90deg, #ffdec6, #aaa);
+}
+
+.label {
+  font-size: 24px;
+  font-family: 'Lobster', cursive;
+  font-weight: 1em;
+}
+
+.tagline {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  text-transform: capitalize;
+}
+
+.tagline a {
+  text-decoration: none;
+  color: #444;
+}
+
+.tagline a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.display {
+  text-align: center;
+}
+
+.display  input {
+  width: 80%;
+  margin: 0 auto;
+  background: #ffffc3;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px  4px #bbb inset;
+  padding: 15px;
+  font-size: 36px;
+  color: inherit;
+  text-align: right;
+}
+
+.buttons {
+  text-align: center;
+  margin: 30px;
+}
+
+.buttons div:first-child button:nth-of-type(1),
+.buttons div:first-child button:nth-of-type(2) {
+  background: #ff524d;
+}
+
+.buttons div:first-child button:nth-of-type(1):hover,
+.buttons div:first-child button:nth-of-type(2):hover {
+  background: #ff3a3d;
+}
+
+.buttons button {
+  width: 20%;
+  height: 50px;
+  margin: 10px;
+  background: #737373;
+  box-shadow: 1px 1px 2px 3px #ccc inset;
+  border: none;
+  color: #f2f2f2;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #595959;
+  border: none;
+}
+
+.last-row button:nth-of-type(2) {
+  width: calc(40% + 20px);
+}
